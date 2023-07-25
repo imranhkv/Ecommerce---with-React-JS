@@ -1,0 +1,95 @@
+.home-all{
+    margin: 0 0 20px 0;
+}
+.home {
+    display: flex;
+    justify-content: start;
+    gap: 6px;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.filters-prod{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    position: relative;
+    width: 550px;
+    padding: 20px 0;
+}
+.filters-prod button{
+    background-color: #fff;
+    border: 0;
+    font-size: 16px;
+    color: #33323294;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    transition: width .4s;
+    border-bottom: 1px solid #00000000;
+    transition: .3s;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.filters-prod button:hover{
+    border-bottom: 1px solid #000;
+    color: #000;
+    
+}
+
+.home img{
+    width: 200px;
+    height: 200px;
+    object-fit:contain;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.product-card{
+    transition: .3s;
+    border: 1px solid #999;
+    border-radius: 7px;
+    width: 320px;
+    height: 400px;
+    
+
+}
+.p-text{
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+}
+.product-card:hover{
+    border: 1px solid #000;
+    transition: .3s;
+}
+.product-card h2{
+    width: 300px;
+    margin: 0 auto;
+    padding: 15px 0 0 0;
+    font-weight: 600;
+}
+.product-card h3,h4{
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.product-card h4{
+    width: 300px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.btns button {
+    margin: 20px 0;
+    border: 1px solid #222;
+    background-color: #222;
+    color: #fff;
+    width: 150px;
+    font-size: 20px;
+    padding: 10px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+  }
+
